@@ -13,7 +13,7 @@ public class Priority_In_testNG
 	
     @Test (priority=1)
     public void openBrowser() {	      
-    	System.setProperty("webdriver.chrome.driver", "D:\\tools\\chromedriver_win32\\chromedriver.exe"); 
+    	System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\selenium-java-3.141.59\\chromedriver_win32\\chromedriver.exe"); 
     	System.out.println("Hello Google...");
     	
     	System.out.println("Priority - 1");
